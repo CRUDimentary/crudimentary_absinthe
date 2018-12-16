@@ -3,15 +3,15 @@ defmodule CRUDimentary.MixProject do
 
   def project do
     [
-      app: :crudimentary,
+      app: :crudimentary_absinthe,
       version: "0.2.5",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      name: "CRUDimentary",
-      source_url: "https://github.com/stankec/crudimentary",
+      name: "CRUDimentary - Absinthe",
+      source_url: "https://github.com/CRUDimentary/crudimentary-absinthe",
       docs: [
-        main: "Crudimentary",
+        main: "Crudimentary - Absinthe",
         extras: ["README.md"]
       ]
     ]
